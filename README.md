@@ -13,14 +13,14 @@ Este repositório foi criado com o objetivo de praticar, revisar e consolidar co
 Os exercícios estão organizados em pastas por tema:
 
 📂 exercicios-python/  
-    📂 basico/  
-    📂 desafios/  
-    📂 estruturas-de-dados/  
-    📂 funcoes/  
-    📂 poo/  
+-- 📂 basico/  
+-- 📂 desafios/  
+-- 📂 estruturas-de-dados/  
+-- 📂 funcoes/  
+-- 📂 poo/  
 
-notebook-do-curso/  
-    📂 DSA-Python-Cap04/  
+📂 notebook-do-curso/  
+-- 📂 DSA-Python-Cap04/  
 
 
 ### Conteúdos de cada pasta
