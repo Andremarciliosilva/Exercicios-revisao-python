@@ -19,14 +19,20 @@ exercicios-python/
 ├── funcoes/  
 └── poo/  
 
+notebook-do-curso/  
+├── DSA-Python-Cap04/  
+
 
 ### Conteúdos de cada pasta
 
 •	basico/ — variáveis, entrada e saída, operadores  
+•	desafios/ — exercícios mais completos e práticos  
 •	estruturas-de-dados/ — listas, tuplas, dicionários, conjuntos  
 •	funcoes/ — funções, escopo, args e kwargs  
 •	poo/ — classes, herança, polimorfismo  
-•	desafios/ — exercícios mais completos e práticos  
+•   DSA-Python-Cap04/  - Notebook fornecido pela DSA no curso
+
+
 
 Caso queira executar os exercícios, execute os comandos abaixo no seu terminal/prompt de comando pra clonar esse repositório
 
