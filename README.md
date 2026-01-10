@@ -1,6 +1,7 @@
 ## Repositório de Exercícios em Python
 
-Este repositório foi criado com o objetivo de praticar, revisar e consolidar conceitos da linguagem Python por meio de exercícios. Aqui você encontrará problemas organizados por tema e nível de dificuldade, servindo como apoio para estudos contínuos.
+Este repositório foi criado com o objetivo de praticar, revisar e consolidar conceitos da linguagem Python por meio de exercícios. 
+Aqui você encontrará exercícios organizados e solucionados do básico até ao avançado, servindo como apoio para estudos e dúvidas futuras.
 
  ### Objetivos
 • Praticar programação em Python  
@@ -33,21 +34,16 @@ Os exercícios estão organizados em pastas por tema:
 •   DSA-Python-Cap04/  - Notebook fornecido pela DSA no curso
 
 
-
 Caso queira executar os exercícios, execute os comandos abaixo no seu terminal/prompt de comando pra clonar esse repositório
 
 ```
 git clone https://github.com/Andremarciliosilva/Exercicios-revisao-python.git
 ```
 
-Abra a pasta onde está localizado o repositório clonado
-```
-cd Exercicios-revisao-python
-```
+Abra a pasta onde está localizado o repositório clonado.
 
-Execute o arquivo desejado
 ```
-python3 caminho/do/arquivo.py
+Pelo fato dos exercícios terem sido executados através do Jupyter Notebook, recomendo executar o script célula por célula.
 ```
 
 ### Conteúdos abordados
