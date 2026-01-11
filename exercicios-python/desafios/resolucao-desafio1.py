@@ -25,20 +25,40 @@ print ("Bem-vindo ao jogo, escolha Pedra, Papel ou Tesoura, as regras são as se
 
 while True:
 
-    opcao_jogador1 = input("Jogador 1, digite uma opção: ")
-    opcao_jogador2 = input("Jogador 2, digite uma opção: ")
-    opcoes = ["Pedra", "Papel", "Tesoura"]
+    # Solicita entradas dos jogadores e converte pra minúsculo pra verificar as condições
+
+    jogador1 = input("Jogador 1, digite uma opção: ")
+    opcao_jogador1 = jogador1.lower()
+    jogador2 = input("Jogador 2, digite uma opção: ")
+    opcao_jogador2 = jogador2.lower()
+
+    opcoes = ["pedra", "papel", "tesoura"]
 
     if opcao_jogador1 in opcoes and opcao_jogador2 in opcoes:
-        continue
+        pass
     else:
         print("Opção inválida, digite novamente!")
 
+# Verifica se há um vencedor ou empate
 
+    if opcao_jogador1 == "pedra" and opcao_jogador2 == "tesoura":
+        print("O Jogador 1 venceu!")
 
+    elif opcao_jogador2 == "pedra" and opcao_jogador1 == "tesoura":
+        print ( "O Jogador 2 venceu!")
 
+    elif opcao_jogador1 == "tesoura" and opcao_jogador2 == "papel":
+        print("O Jogador 1 venceu!")
 
+    elif opcao_jogador2 == "tesoura" and opcao_jogador1 == "papel":
+        print ( "O Jogador 2 venceu!")
 
+    elif opcao_jogador1 == "papel" and opcao_jogador2 == "pedra":
+        print("O Jogador 1 venceu!")
 
-     
+    elif opcao_jogador2 == "papel" and opcao_jogador1 == "pedra":
+        print ( "O Jogador 2 venceu!")
+
+    elif opcao_jogador1 == opcao_jogador2:
+        print ("Empatou, joguem novamente!")
 
