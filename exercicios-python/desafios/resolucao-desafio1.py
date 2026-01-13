@@ -25,7 +25,7 @@ print ("Bem-vindo ao jogo, escolha Pedra, Papel ou Tesoura, as regras são as se
 # se não for solicita a entrada novamente.
 
 while True:
-
+    
     jogador1 = input("Jogador 1, digite uma opção: ")
     opcao_jogador1 = jogador1.lower()
     jogador2 = input("Jogador 2, digite uma opção: ")
@@ -39,7 +39,6 @@ while True:
         print("Opção inválida, digite novamente!")
 
 # Verifica se há um vencedor ou empate
-
 
 if opcao_jogador1 == opcao_jogador2:
     print ("Empatou, joguem novamente!")
